@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func main() {
+func mai() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 
 		f := fib()
